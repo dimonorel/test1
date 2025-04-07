@@ -1,0 +1,31 @@
+Управление DNS домена 1tvch.info
+Тип Хост Значение TTL
+A @ 78.155.223.46 900
+CNAME mail domain.mail.yandex.net. 900
+MX @ mx.yandex.net. Приоритет: 10 21600
+NS 1tvch.info dns2.yandex.net. 21600
+NS 1tvch.info dns1.yandex.net. 21600
+TXT mail._domainkey v=DKIM1; k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDImjozZIv6Q3ken9AVijmEcTdrLL/KUy/oS/mTL8kBKb13+mVO/4rcA/hFS//0tTIRlxeJFrLb4k0mE2X8x4ABpifKgHGH2a+bn0Kw844esGDb6v6qXd4/ge6ux/UxSwE4McnNgSY5IS/cbhW09mIxd1HrCW/V0vSJzwEcpRsW/QIDAQAB
+900
+TXT @ v=spf1 redirect=_spf.yandex.net ~all 21600
+
+
+
+
+TXT mail._domainkey v=DKIM1; k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSkFMjR8rNm8mGGSgIgaiOUfbV6YqERy73F1XgqXAxhSWciDy63lf80wSUnjG085yFxhOX3Fktf35qIAp/o9cazzPwxxu+vMcWoWgyL0mIQsgX5IBj4mhLSoLKCWEaHkf5iyDongk/npu/kyVWcgJ+dn53QHUhU8F7AxGB5fLcwwIDAQAB
+
+
+@       A       194.84.95.162
+@       MX      10 mx.yandex.net.
+;ext.sv A       194.84.95.162
+@       TXT     yandex-verification:c0a0ce3b2e65aa6b
+@       TXT     "v=spf1 redirect=_spf.yandex.net"
+mail._domainkey TXT     "v=DKIM1; k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSkFMjR8rNm8mGGSgIgaiOUfbV6YqERy73F1XgqXAxhSWciDy63lf80wSUnjG085yFxhOX3Fktf35qIAp/o9cazzPwxxu+vMcWoWgyL0mIQsgX5IBj4mhLSoLKCWEaHkf5iyDongk/npu/kyVWcgJ+dn53QHUhU8F7AxGB5fLcwwIDAQAB"
+
+
+
+	@	MX	10 mx01.nicmail.ru.	
+	@	MX	20 mx03.nicmail.ru.	
+	@	MX	5 mx02.nicmail.ru.	
+	mail	CNAME	mail.nic.ru.	
+	@	TXT	v=spf1 redirect=nicmail.ru
